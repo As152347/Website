@@ -34,9 +34,10 @@ form.addEventListener("submit", function (e) {
         return;
     }
 
-    if (password !== confirmPassword) {
-        alert("Passwords do not match.");
-        return;
+  if (password !== confirmPassword) {
+    alert("Passwords do not match.");
+    return;
+}
     }
 
     // Disable Button
